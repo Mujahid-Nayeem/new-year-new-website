@@ -5,16 +5,13 @@ body {
 
 /* banner related */
 .header-banner {
-    /* border-radius: 16px; */
-
-    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
     background-image: url('../resources/Banner\ Image.png');
     padding: 50 140;
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
-
-
+    border-radius: 16px;
+    background: linear-gradient hsl(260, 79%, 4%), rgba(7, 2, 17, 0) 100%;
 
 }
 
@@ -38,6 +35,8 @@ body {
 main {
     width: 800px;
     margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .discount-offer {}
@@ -65,4 +64,100 @@ main {
     font-weight: 700;
     text-align: center;
     margin-top: 0;
+}
+
+.invitation {
+    padding: 125px 110px 140px 125px;
+    align-items: center;
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, #070211, #07021100 100%);
+    background-image: url('../resources/Vectorrr.png');
+    width: 1320px;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+
+.invitation-content {
+    max-width: 550px;
+
+}
+
+.invitation-welcome {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+    width: 642px;
+}
+
+.invitation-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.pic-of-year {
+    max-width: 350px;
+
+}
+
+.portfolio-images {
+    display: flex;
+    flex: 50%;
+
+}
+
+.gift-section {
+    width: 1320px;
+    height: 1163px;
+    padding: 0 4px;
+    vertical-align: middle;
+}
+
+.subscription-section {
+    position: absolute;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: #ff00000d;
+    padding: 80px 212px;
+    margin-top: 120px 0;
+}
+
+.email-icon {
+    /* email 1 */
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.subscribe-heading {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.subscription-description {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#mail {
+    width: 210px;
+    height: 72px;
+}
+
+.subscribe-button {
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    background: #ff0000;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
